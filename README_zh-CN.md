@@ -81,7 +81,7 @@ OpenCompass 是面向大模型评测的一站式平台。其主要特点如下�
 
 ## 📊 性能榜单
 
-我们将陆续提供开源模型和API模型的具体性能榜单，请见 [OpenCompass Leaderboard](https://opencompass.org.cn/rank) 。如需加入评测，请提供模型仓库地址或标准的 API 接口至邮箱  `opencompass@pjlab.org.cn`.
+我们将陆续提供开源模型和 API 模型的具体性能榜单，请见 [OpenCompass Leaderboard](https://rank.opencompass.org.cn/home) 。如需加入评测，请提供模型仓库地址或标准的 API 接口至邮箱  `opencompass@pjlab.org.cn`.
 
 <p align="right"><a href="#top">🔝返回顶部</a></p>
 
@@ -116,8 +116,8 @@ pip install -e .
 
 ```bash
 # 下载数据集到 data/ 处
-wget https://github.com/open-compass/opencompass/releases/download/0.1.8.rc1/OpenCompassData-core-20231110.zip
-unzip OpenCompassData-core-20231110.zip
+wget https://github.com/open-compass/opencompass/releases/download/0.2.2.rc1/OpenCompassData-core-20240207.zip
+unzip OpenCompassData-core-20240207.zip
 ```
 
 有部分第三方功能,如 Humaneval 以及 Llama,可能需要额外步骤才能正常运行，详细步骤请参考[安装指南](https://opencompass.readthedocs.io/zh_CN/latest/get_started/installation.html)。
